@@ -36,11 +36,11 @@ footer-links:
   behance: # https://www.behance.net/<username>
   dribbble:
   email: skepo@naver.com
-  facebook:
+  facebook: profile.php?id=1167996011
   flickr:
   github: raeyoungii
   googleplus: # anything in your profile username that comes after plus.google.com/
-  instagram:
+  instagram: raeyoungi
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
@@ -61,7 +61,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: https://raeyoungii.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
