@@ -13,7 +13,7 @@ description: 2021
 #
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars.githubusercontent.com/u/46953532?s=460&u=8ce9b12431f10acd9adc2d13fd169d22e792a460&v=4
+avatar: /assets/logo.png
 
 
 # Tabs in header. There are 'Blog', 'About', 'Archive', 'Tags'
