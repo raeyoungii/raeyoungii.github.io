@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 김래영👨‍💻
+title: 김래영 👨‍💻
 permalink: /about/
 ---
 
