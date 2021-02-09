@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "자료구조: 우선순위 큐"
-tags: [자료구조]
+title: "STL: 우선순위 큐"
+tags: [자료구조, STL]
 comments: true
 ---
 
