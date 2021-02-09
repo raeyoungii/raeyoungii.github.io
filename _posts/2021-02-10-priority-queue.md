@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "STL: 우선순위 큐"
-tags: [자료구조, STL]
+tags: [STL, 자료구조]
 comments: true
 ---
 
-> DS
+> STL
 
 * 우선순위를 가진 항목들을 저장하는 큐
 
