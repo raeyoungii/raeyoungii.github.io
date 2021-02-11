@@ -17,7 +17,43 @@ comments: true
 3. 힙(heap)를 이용한 우선순위 큐 `O(logn)`
 
 ### 사용법 (c++)
-<script src="https://gist.github.com/raeyoungii/cc13f9e8918e8b006b1abe596a404216.js"></script>
+```c++
+#include <queue>
+
+// 선언
+priority_queue<자료형, Container, 비교함수> pq;
+// 선언한 자료형 변수들을 비교함수에 따라 정렬하는 priority_queue를 선언.
+
+priority_queue<자료형> pq;
+// 선언한 자료형 변수들을 내림차순에 따라 정렬하는 priority_queue를 선언.
+
+// 추가 및 삭제
+pq.push(element) // 원소를 삽입. (비교함수에 따라 내부적으로 정렬됨)
+
+pq.pop() //맨 앞에 있는 원소를 삭제.
+
+// 서칭
+pq.top() // 맨 앞에 있는 원소를 반환.
+
+// 기타
+pq.empty() // priority_queue가 비어있다면 true 아니면 false를 반환
+pq.size() // priority_queue의 크기를 반환
+
+```
 
 ### 구조체 비교함수 선언
-<script src="https://gist.github.com/raeyoungii/584e9db93ff205f2101321f18a07acf9.js"></script>
+```c++
+struct compare {
+    bool operator()(fish a, fish b) {
+        if (a.dist == b.dist) {
+            if (a.y == b.y) return a.x > b.x;
+            return a.y > b.y;
+        }
+        return a.dist > b.dist;
+    }
+};
+
+priority_queue<fish, vector<fish>, compare> pq;
+// BOJ 16236번: 아기 상어
+
+```
