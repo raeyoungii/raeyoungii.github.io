@@ -544,6 +544,41 @@ nav {
   }
 }
 
+// Category
+.category {
+  a {
+    color: $base-color;
+
+    &.tag {
+      margin: 3px 3px 3px 0;
+      padding: .5px 4px;
+      font-size: $small-font-size;
+      font-weight: 300;
+      color: $tag-index-label-color;
+      background-color: $tag-index-label-background-color;
+      border-radius: 3px;
+    }
+  }
+  span {
+    padding: .5px 5px;
+    margin: 0;
+    font-size: $small-font-size;
+    font-weight: 300;
+    display: inline;
+    
+    &.count {
+      background-color: $tag-index-count-background-color;
+      border-radius: 3px;
+    }
+  }
+  time {
+    color: $base-lighten-color;
+    font-size: $small-font-size;
+    font-weight: 300;
+    margin-left: 3px;
+  }
+}
+
 // Footer
 .wrapper-footer {
   margin-top: 50px;

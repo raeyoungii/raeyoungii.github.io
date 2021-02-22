@@ -1,0 +1,25 @@
+---
+layout: page
+title: Category
+permalink: /categories/
+---
+
+{% if site.posts.size == 0 %}
+  <h2>No post found</h2>
+{% endif %}
+<div>
+  {% for category in site.categories %}
+    <ul class="category">
+      {% for categoryName in category[0] %}
+        {% if categoryName != null %}
+          <li>
+              <a href="{{ categoryName }}">
+                {{ categoryName }}
+              </a>
+              <span class="count">{{ category[1].size }}</span>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</div>
