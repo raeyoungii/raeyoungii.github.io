@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Educational Codeforces: Round 104 (Div.2)"
+category: Codeforces
 tags: [알고리즘, Codeforces]
 comments: true
 mathjax: true
@@ -118,5 +119,4 @@ int main() {
 
 ```
 
-<https://codeforces.com/contest/1487/problem/A>{:target="_blank"}<br>
-<https://codeforces.com/contest/1487/problem/B>{:target="_blank"}
+<https://codeforces.com/contest/1487>{:target="_blank"}
