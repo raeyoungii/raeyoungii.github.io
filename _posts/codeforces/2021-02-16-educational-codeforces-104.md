@@ -10,7 +10,7 @@ mathjax: true
 > Codeforces
 
 # A. Arena
-## 문제
+
 $n$ heroes fight against each other in the Arena. Initially, the $i$-th hero has level $a_i$.
 
 Each minute, a fight between two different heroes occurs. These heroes can be chosen arbitrarily (it's even possible that it is the same two heroes that were fighting during the last minute).
@@ -21,12 +21,12 @@ The winner of the tournament is the first hero that wins in at least $100^{500}$
 
 Calculate the number of possible winners among $n$ heroes.
 
-### 입력
+### Input
 The first line contains one integer $t$ $(1≤t≤500)$ — the number of test cases.
 
 Each test case consists of two lines. The first line contains one integer $n$ $(2≤n≤100)$ — the number of heroes. The second line contains $n$ integers $a_1,a_2,…,a_n$ $(1≤a_i≤100)$, where $a_i$ is the initial level of the $i$-th hero.
 
-### 출력
+### Output
 For each test case, print one integer — the number of possible winners among the given $n$ heroes.
 
 ## 풀이
@@ -65,7 +65,7 @@ int main() {
 ```
 
 # B. Cat Cycle
-## 문제
+
 Suppose you are living with two cats: A and B. There are $n$ napping spots where both cats usually sleep.
 
 Your cats like to sleep and also like all these spots, so they change napping spot each hour cyclically:
@@ -77,12 +77,12 @@ The cat B is much younger, so they have a strict hierarchy: A and B don't lie to
 
 Calculate, where cat B will be at hour $k$?
 
-### 입력
+### Input
 The first line contains a single integer t $(1≤t≤10^4)$ — the number of test cases.
 
 The first and only line of each test case contains two integers $n$ and $k$ $(2≤n≤10^9; 1≤k≤10^9)$ — the number of spots and hour $k$.
 
-### 출력
+### Output
 For each test case, print one integer — the index of the spot where cat B will sleep at hour $k$.
 
 ## 풀이
