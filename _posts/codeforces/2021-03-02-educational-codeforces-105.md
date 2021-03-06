@@ -117,6 +117,7 @@ You may print every letter in any case you want (so, for example, the strings yE
 
 using namespace std;
 typedef long long ll;
+
 int n;
 int urdl[4];
 
