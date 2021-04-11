@@ -13,10 +13,10 @@ permalink: /categories/
       {% for categoryName in category[0] %}
         {% if categoryName != null %}
           <li>
-              <a href="{{ categoryName }}">
-                {{ categoryName }}
-              </a>
+            <h2>
+              <a href="{{ categoryName }}">{{ categoryName }}</a>
               <span class="count">{{ category[1].size }}</span>
+            <h2>
           </li>
         {% endif %}
       {% endfor %}
