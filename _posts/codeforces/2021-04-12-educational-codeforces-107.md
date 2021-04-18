@@ -147,7 +147,7 @@ The first line contains two integers $𝑛$ and $𝑞$ $(2≤𝑛≤3⋅10^5; 1�
 
 The second line contains $𝑛$ integers $𝑎_1,𝑎_2,…,𝑎_𝑛$ $(1≤𝑎_𝑖≤50)$ — the colors of cards.
 
-The third line contains $𝑞$ integers$ 𝑡_1,𝑡_2,…,𝑡_𝑞$ $(1≤𝑡𝑗≤50)$ — the query colors. It's guaranteed that **queries ask only colors that are present in the deck**.
+The third line contains $𝑞$ integers$ 𝑡_1,𝑡_2,…,𝑡_𝑞$ $(1≤𝑡_𝑗≤50)$ — the query colors. It's guaranteed that **queries ask only colors that are present in the deck**.
 
 ### Output
 Print $𝑞$ integers — the answers for each query.
