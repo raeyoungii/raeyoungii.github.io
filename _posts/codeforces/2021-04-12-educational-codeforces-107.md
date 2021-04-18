@@ -112,8 +112,6 @@ For each testcase print two positive integers — $𝑥$ and $𝑦$ $(𝑥>0, �
 using namespace std;
 typedef long long ll;
 const char nl = '\n';
-ll gcd(ll a, ll b) { return b ? gcd(b, a % b) : a; }
-ll lcm(ll a, ll b) { return a * b / gcd(a, b); }
 
 void solve() {
     int a, b, c; cin >> a >> b >> c;
